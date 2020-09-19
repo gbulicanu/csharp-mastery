@@ -7,7 +7,16 @@ namespace Classes
         static void Main(string[] args)
         {
             // UsePoints();
-            UseParams();
+            // UseParams();
+
+            // var number = int.Parse("abc");
+
+            int number;
+            var result = int.TryParse("abc", out number);
+            if (result)
+                Console.WriteLine(number);
+            else
+                Console.WriteLine("Conversion failed.");
         }
 
         public static void UseParams()
