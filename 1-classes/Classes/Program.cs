@@ -12,6 +12,7 @@ namespace Classes
 
             point.Move(100, 200);
             Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
+            point.Move(null);
         }
     }
 }

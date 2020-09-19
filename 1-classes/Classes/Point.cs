@@ -18,8 +18,7 @@ namespace Classes
 
         public void Move(Point newLocation)
         {
-            this.X = newLocation.X;
-            this.Y = newLocation.Y;
+            Move(newLocation.X, newLocation.Y);
         }
     }
 }
