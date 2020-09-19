@@ -18,5 +18,15 @@ namespace Classes
 
             return person;
         }
+
+        public void SetBirthdate(DateTime birthdate)
+        {
+            this.birthdate = birthdate;
+        }
+
+        public DateTime GetBirthdate()
+        {
+            return this.birthdate;
+        }
     }
 }

@@ -15,6 +15,8 @@ namespace Classes
 
             var person = new Person();
             // person.birthdate
+            person.SetBirthdate(new DateTime(1986, 2, 4));
+            Console.WriteLine(person.GetBirthdate());
         }
 
         public static void UseFields()
@@ -23,7 +25,7 @@ namespace Classes
             customer.Orders.Add(new Order());
             customer.Orders.Add(new Order());
             customer.Promote();
-            System.Console.WriteLine(customer.Orders.Count);
+            Console.WriteLine(customer.Orders.Count);
         }
 
         public static void UseOut()
@@ -61,7 +63,7 @@ namespace Classes
             catch (Exception)
             {
 
-                System.Console.WriteLine("And unexpected error ocurred.");
+                Console.WriteLine("And unexpected error ocurred.");
             }
         }
     }
