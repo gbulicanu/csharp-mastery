@@ -12,11 +12,15 @@ namespace Classes
             // var number = int.Parse("abc");
             // UseOut();
             // UseFields();
+            UseProperties();
+        }
 
+        public static void UseProperties()
+        {
             var person = new Person();
             // person.birthdate
-            person.SetBirthdate(new DateTime(1986, 2, 4));
-            Console.WriteLine(person.GetBirthdate());
+            person.Birthdate = new DateTime(1986, 2, 4);
+            Console.WriteLine(person.Birthdate);
         }
 
         public static void UseFields()
