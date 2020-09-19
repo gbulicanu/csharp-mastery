@@ -10,7 +10,17 @@ namespace Classes
             // UseParams();
 
             // var number = int.Parse("abc");
+            // UseOut();
 
+            var customer = new Customer(1);
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
+            customer.Promote();
+            System.Console.WriteLine(customer.Orders.Count);
+        }
+
+        public static void UseOut()
+        {
             int number;
             var result = int.TryParse("abc", out number);
             if (result)
