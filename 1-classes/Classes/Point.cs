@@ -18,6 +18,9 @@ namespace Classes
 
         public void Move(Point newLocation)
         {
+            if (newLocation == null)
+                throw new System.ArgumentNullException("newLocation");
+
             Move(newLocation.X, newLocation.Y);
         }
     }
