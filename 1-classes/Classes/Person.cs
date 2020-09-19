@@ -5,7 +5,6 @@ namespace Classes
     public class Person
     {
         public string Name;
-        private DateTime birthdate;
         public void Introduce(string to)
         {
             Console.WriteLine("Hi {0}, I am {1}", to, Name);
@@ -18,10 +17,7 @@ namespace Classes
 
             return person;
         }
-        public DateTime Birthdate
-        {
-            get { return this.birthdate; }
-            set { this.birthdate = value; }
-        }
+
+        public DateTime Birthdate { get; set; }
     }
 }
