@@ -12,13 +12,18 @@ namespace Classes
 
         public static Person Parse(string str)
         {
-            var person = new Person();
+            var person = new Person(DateTime.Today.AddYears(-10));
             person.Name = str;
 
             return person;
         }
 
-        public DateTime Birthdate { get; set; }
+        public Person(DateTime birthdate)
+        {
+            this.Birthdate = birthdate;
+        }
+
+        public DateTime Birthdate { get; private set; }
 
         public int Age
         {

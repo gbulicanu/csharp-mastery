@@ -17,9 +17,7 @@ namespace Classes
 
         public static void UseProperties()
         {
-            var person = new Person();
-            // person.birthdate
-            person.Birthdate = new DateTime(1986, 2, 4);
+            var person = new Person(new DateTime(1986, 2, 4));
             Console.WriteLine(person.Age);
         }
 
