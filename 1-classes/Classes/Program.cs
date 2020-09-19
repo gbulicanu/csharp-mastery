@@ -11,7 +11,14 @@ namespace Classes
 
             // var number = int.Parse("abc");
             // UseOut();
+            // UseFields();
 
+            var person = new Person();
+            // person.birthdate
+        }
+
+        public static void UseFields()
+        {
             var customer = new Customer(1);
             customer.Orders.Add(new Order());
             customer.Orders.Add(new Order());
