@@ -9,7 +9,7 @@ namespace Classes
             // var person = Person.Parse("John");
             // person.Introduce("George");
 
-            var customer = new Customer();
+            var customer = new Customer(1, "John");
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
         }
