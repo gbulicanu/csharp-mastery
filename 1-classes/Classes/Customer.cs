@@ -9,7 +9,7 @@ namespace Classes
         public List<Order> Orders;
         public Customer()
         {
-            // Orders = new List<Order>();
+            Orders = new List<Order>();
         }
         public Customer(int id)
         {
