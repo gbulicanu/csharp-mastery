@@ -12,7 +12,10 @@ namespace Classes
             // var number = int.Parse("abc");
             // UseOut();
             // UseFields();
-            UseProperties();
+            // UseProperties();
+            var cookie = new HttpCookie();
+            cookie["name"] = "George";
+            Console.WriteLine(cookie["name"]);
         }
 
         public static void UseProperties()
