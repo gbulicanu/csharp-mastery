@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon", "3-inheritance\Ama
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "3-inheritance\Constructors\Constructors.csproj", "{14491C92-2D52-4460-81A9-F70F61073697}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "3-inheritance\Casting\Casting.csproj", "{1AE83147-4BEE-4BD4-9839-A3C6545FE127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,18 @@ Global
 		{14491C92-2D52-4460-81A9-F70F61073697}.Release|x64.Build.0 = Release|Any CPU
 		{14491C92-2D52-4460-81A9-F70F61073697}.Release|x86.ActiveCfg = Release|Any CPU
 		{14491C92-2D52-4460-81A9-F70F61073697}.Release|x86.Build.0 = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|x64.Build.0 = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Debug|x86.Build.0 = Debug|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|x64.ActiveCfg = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|x64.Build.0 = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|x86.ActiveCfg = Release|Any CPU
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +158,7 @@ Global
 		{03DC0EA8-59F0-4FB1-A99E-8C8FF7D64D41} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 		{445935BF-9F88-4528-A2D5-2D94EBD088AC} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 		{14491C92-2D52-4460-81A9-F70F61073697} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
+		{1AE83147-4BEE-4BD4-9839-A3C6545FE127} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E199C148-46BB-4691-BFC0-D9E6000C6F5E}
