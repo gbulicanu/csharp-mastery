@@ -20,13 +20,19 @@ namespace Casting
 
             // StreamReader streamReader = new StreamReader(new MemoryStream());
 
-            var list = new ArrayList();
-            list.Add(1);
-            list.Add("George");
-            list.Add(new Text());
+            //var list = new ArrayList();
+            //list.Add(1);
+            //list.Add("George");
+            //list.Add(new Text());
 
-            var anotherList = new List<Shape>();
-            anotherList.Add(new Text());
+            //var anotherList = new List<Shape>();
+            //anotherList.Add(new Text());
+
+
+            Shape shape = new Text();
+            // Downcast
+            Text text = (Text)shape;
+            text.FontSize = 20;
         }
     }
 }
