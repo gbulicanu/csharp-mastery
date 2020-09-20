@@ -16,7 +16,7 @@ namespace AccessModifiers
                 Console.WriteLine("Promoted to Level 2");
         }
 
-        private int CalculateRating(bool excludeOrders) 
+        protected int CalculateRating(bool excludeOrders) 
         {
             return 0;
         }
