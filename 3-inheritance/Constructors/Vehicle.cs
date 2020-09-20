@@ -4,9 +4,17 @@ namespace Constructors
 {
     public class Vehicle
     {
-        public Vehicle()
+        private readonly string registrationNumber;
+
+        //public Vehicle()
+        //{
+        //    Console.WriteLine("Vehicle is being initialized.");
+        //}
+
+        public Vehicle(string registrationNumber)
         {
-            Console.WriteLine("Vehicle is being initialized.");
+            this.registrationNumber = registrationNumber;
+            Console.WriteLine("Vehicle is being initialized. {0}", registrationNumber);
         }
     }
 }
