@@ -1,6 +1,7 @@
-﻿using System;
+﻿
+using System;
 
-namespace AccessModifiers
+namespace Amazon
 {
     public class Customer
     {
@@ -9,6 +10,8 @@ namespace AccessModifiers
 
         public void Promote()
         {
+            var calculator = new RateCalculator();
+            var rating = calculator.Caluculate(this);
             Console.WriteLine("Promoted logic change.");
         }
     }
