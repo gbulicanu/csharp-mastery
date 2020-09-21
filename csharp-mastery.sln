@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensibility", "5-interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleInheritance", "5-interfaces\MultipleInheritance\MultipleInheritance.csproj", "{3B1AA0FD-27F1-45B9-8567-3370AB839991}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "5-interfaces\Polymorphism\Polymorphism.csproj", "{89C4405C-9BFA-4627-BAED-E8F28289C52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +291,18 @@ Global
 		{3B1AA0FD-27F1-45B9-8567-3370AB839991}.Release|x64.Build.0 = Release|Any CPU
 		{3B1AA0FD-27F1-45B9-8567-3370AB839991}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B1AA0FD-27F1-45B9-8567-3370AB839991}.Release|x86.Build.0 = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|x64.Build.0 = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Debug|x86.Build.0 = Debug|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|x64.ActiveCfg = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|x64.Build.0 = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|x86.ActiveCfg = Release|Any CPU
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,6 +327,7 @@ Global
 		{10136761-6DA5-44FD-8CF5-9A2CB825109A} = {44616021-7D32-4FFF-9C84-E315BB887E0E}
 		{0DB080F4-8B94-4882-B028-2FDC9D76C8F5} = {44616021-7D32-4FFF-9C84-E315BB887E0E}
 		{3B1AA0FD-27F1-45B9-8567-3370AB839991} = {44616021-7D32-4FFF-9C84-E315BB887E0E}
+		{89C4405C-9BFA-4627-BAED-E8F28289C52A} = {44616021-7D32-4FFF-9C84-E315BB887E0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E199C148-46BB-4691-BFC0-D9E6000C6F5E}
