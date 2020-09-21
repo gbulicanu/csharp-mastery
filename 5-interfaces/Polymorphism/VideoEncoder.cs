@@ -1,21 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Polymorphism
 {
     public class VideoEncoder
     {
-        private readonly MailService mailService;
+        private readonly IList<INotificationChannel> notificationChannels;
 
         public VideoEncoder()
         {
-            this.mailService = new MailService();
+            this.notificationChannels = new List<INotificationChannel>();
         }
+
         public void Encode(Video video)
         {
             // Video encoding logic
             // ...
 
-            this.mailService.Send(new Mail());
+            foreach (var channel in this.notificationChannels)
+            {
+                channel.Send(new Message());
+            }
+        }
+
+        public void RegisterNotificationChannel(INotificationChannel notificationChannel)
+        {
+            this.notificationChannels.Add(notificationChannel);
         }
     }
 }
