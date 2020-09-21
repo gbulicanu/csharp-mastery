@@ -33,6 +33,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing", "3-inheritance\Box
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise", "3-inheritance\Exercise\Exercise.csproj", "{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Polymorphism", "4. Polymorphism", "{F8078005-5727-4D51-A294-7020AED05FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverriding", "4-polymorphism\MethodOverriding\MethodOverriding.csproj", "{66D516A2-DF39-4CFB-8D5B-E07702011F4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +191,18 @@ Global
 		{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE}.Release|x64.Build.0 = Release|Any CPU
 		{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE}.Release|x86.ActiveCfg = Release|Any CPU
 		{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE}.Release|x86.Build.0 = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|x64.Build.0 = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Debug|x86.Build.0 = Debug|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|x64.ActiveCfg = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|x64.Build.0 = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|x86.ActiveCfg = Release|Any CPU
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +220,7 @@ Global
 		{06E04F91-8F7F-4D1F-A560-406F4BDDB405} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 		{3204EEE9-1ED5-458D-B7EF-19448A9AF527} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 		{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
+		{66D516A2-DF39-4CFB-8D5B-E07702011F4C} = {F8078005-5727-4D51-A294-7020AED05FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E199C148-46BB-4691-BFC0-D9E6000C6F5E}
