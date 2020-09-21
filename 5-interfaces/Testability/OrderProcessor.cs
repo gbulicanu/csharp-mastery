@@ -4,14 +4,14 @@ namespace Testability
 {
     public class OrderProcessor
     {
-        private readonly ShippingCalculator shippingCalculator;
+        private readonly IShippingCalculator shippingCalculator;
 
-        public OrderProcessor()
+        public OrderProcessor(IShippingCalculator shippingCalculator)
         {
-            this.shippingCalculator = new ShippingCalculator();
+            this.shippingCalculator = shippingCalculator;
         }
 
-        internal void Proccess(Order order)
+        public void Proccess(Order order)
         {
             if (order.IsShipped)
                 throw new InvalidOperationException("This order is already processed.");
@@ -19,7 +19,7 @@ namespace Testability
             order.Shipment = new Shipment
             {
                 Cost = this.shippingCalculator.CalculateShipping(order),
-                ShippingDate = DateTime.Now.AddDays(1)
+                ShippingDate = DateTime.Today.AddDays(1)
             };
         }
     }
