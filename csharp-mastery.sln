@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverriding", "4-polym
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "4-polymorphism\AbstractClasses\AbstractClasses.csproj", "{FF27AD36-9B80-4A7B-BAA8-4CE02B5A3781}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise", "4-polymorphism\Exercise\Exercise.csproj", "{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,18 @@ Global
 		{FF27AD36-9B80-4A7B-BAA8-4CE02B5A3781}.Release|x64.Build.0 = Release|Any CPU
 		{FF27AD36-9B80-4A7B-BAA8-4CE02B5A3781}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF27AD36-9B80-4A7B-BAA8-4CE02B5A3781}.Release|x86.Build.0 = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|x64.Build.0 = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Debug|x86.Build.0 = Debug|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|x64.ActiveCfg = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|x64.Build.0 = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,6 +250,7 @@ Global
 		{70EE0F1B-03FA-4E7E-90CE-CAB28B2ADAFE} = {081AC36D-DE40-45CF-8F32-AC76FB929955}
 		{66D516A2-DF39-4CFB-8D5B-E07702011F4C} = {F8078005-5727-4D51-A294-7020AED05FE3}
 		{FF27AD36-9B80-4A7B-BAA8-4CE02B5A3781} = {F8078005-5727-4D51-A294-7020AED05FE3}
+		{9ED717CA-47AC-4A80-BBCE-A969167CC4D7} = {F8078005-5727-4D51-A294-7020AED05FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E199C148-46BB-4691-BFC0-D9E6000C6F5E}
