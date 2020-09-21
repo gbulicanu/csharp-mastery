@@ -3,6 +3,7 @@
     public enum ShapeType
     {
         Circle,
-        Reactangle
+        Reactangle,
+        Triangle
     }
 }
