@@ -13,17 +13,19 @@ namespace Extensibility
 
         public void LogError(string message)
         {
-            using (var streamWriter = new StreamWriter(path, true))
-            {
-                streamWriter.WriteLine("ERROR: {0}", message);
-            }
+            Log(message, "ERROR");
         }
 
         public void LogInfo(string message)
         {
+            Log(message, "INFO");
+        }
+
+        private void Log(string message, string messageType) 
+        {
             using (var streamWriter = new StreamWriter(path, true))
             {
-                streamWriter.WriteLine(message);
+                streamWriter.WriteLine("{0}: {1}", messageType, message);
             }
         }
     }
