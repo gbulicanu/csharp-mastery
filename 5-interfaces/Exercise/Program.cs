@@ -9,6 +9,9 @@ namespace Exercise
             var workflowEngine = new WorkflowEngine();
             var workflow = new Workflow();
             workflow.AddActivity(new UploadActivity());
+            workflow.AddActivity(new CallThirdPartyWebServiceActivity());
+            workflow.AddActivity(new SendEmailActivity());
+            workflow.AddActivity(new UpdateStatusActivity());
             workflowEngine.Run(workflow);
         }
     }
