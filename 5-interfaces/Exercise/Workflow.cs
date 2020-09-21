@@ -4,16 +4,21 @@ namespace Exercise
 {
     public class Workflow
     {
-        public List<IActivity> Activities { get; private set; }
+        private readonly List<IActivity> activities;
 
         public Workflow()
         {
-            this.Activities = new List<IActivity>();
+            this.activities = new List<IActivity>();
         }
 
         public void AddActivity(IActivity activity) 
         {
-            this.Activities.Add(activity);
+            this.activities.Add(activity);
+        }
+
+        public IEnumerable<IActivity> GetActivities() 
+        {
+            return activities;
         }
         
     }

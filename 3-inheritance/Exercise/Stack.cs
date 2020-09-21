@@ -7,7 +7,7 @@ namespace Exercise
     {
         public class Stack
         {
-            private ArrayList list = new ArrayList();
+            private readonly ArrayList list = new ArrayList();
 
             public void Push(object obj)
             {
@@ -16,7 +16,7 @@ namespace Exercise
                     throw new InvalidOperationException("Cannot push null reference.");
                 }
 
-                list.Add(obj);
+                this.list.Add(obj);
             }
 
             public object Pop() 
@@ -26,16 +26,16 @@ namespace Exercise
                     throw new InvalidOperationException("Cannot pop the empty stack.");
                 }
 
-                var lastIndex = list.Count - 1;
-                var lastAddedItem = list[lastIndex];
-                list.RemoveAt(lastIndex);
+                var lastIndex = this.list.Count - 1;
+                var lastAddedItem = this.list[lastIndex];
+                this.list.RemoveAt(lastIndex);
 
                 return lastAddedItem;
             }
 
             public void Clear() 
             {
-                list.Clear();
+                this.list.Clear();
             }
         }
     }
